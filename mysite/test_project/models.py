@@ -3,7 +3,7 @@ from django.utils import timezone
 from django.contrib.auth.models import User
 
 
-class Post(models.Modes):
+class Post(models.Model):
     STATUS_CHOICE = (
         ("draft", "Draft"),
         ("published", "Published"),
